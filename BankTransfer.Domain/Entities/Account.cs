@@ -35,7 +35,7 @@ public class Account
             throw new InvalidTransferException("Withdrawal amount must be positive");
 
         if (Balance < amount)
-            throw new InsufficientFundsException(Id, amount, Balance);
+            throw new InsufficientFundsException(Id, OwnerName, amount, Balance);
 
         Balance -= amount;
     }

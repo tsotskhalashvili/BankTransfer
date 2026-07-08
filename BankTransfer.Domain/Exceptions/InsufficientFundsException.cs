@@ -2,8 +2,8 @@
 
 public class InsufficientFundsException : Exception
 {
-    public InsufficientFundsException(Guid accountId, decimal requested, decimal available)
-        : base($"Account {accountId} has insufficient funds. Requested: {requested}, Available: {available}")
+    public InsufficientFundsException(Guid accountId, string ownerName, decimal requested, decimal available)
+        : base($"Account '{ownerName}' has insufficient funds. Requested: {requested}, Available: {available}")
     {
     }
 }

@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="BankTransfer.Api/BankTransfer.Api.csproj" />
   <Project Path="BankTransfer.Application/BankTransfer.Application.csproj" />
+  <Project Path="BankTransfer.Domain.Tests/BankTransfer.Domain.Tests.csproj" />
   <Project Path="BankTransfer.Domain/BankTransfer.Domain.csproj" />
   <Project Path="BankTransfer.Persistence/BankTransfer.Persistence.csproj" />
 </Solution>

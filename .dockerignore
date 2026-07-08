@@ -1,0 +1,7 @@
+**/bin/
+**/obj/
+**/.vs/
+**/*.user
+client/
+.git/
+**/node_modules/
